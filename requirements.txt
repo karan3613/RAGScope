@@ -1,0 +1,13 @@
+langchain-google-genai~=2.1.9
+pydantic~=2.11.7
+python-dotenv~=1.1.1
+pinecone~=7.3.0
+langchain-community~=0.3.27
+langchain~=0.3.27
+langchain-core~=0.3.74
+langgraph~=0.6.6
+typing_extensions~=4.14.1
+streamlit~=1.48.1
+pandas~=2.3.2
+numpy~=2.2.6
+datasets~=4.0.0
