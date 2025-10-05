@@ -55,7 +55,7 @@ RAGScope:
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/RAGScope.git
+git clone https://github.com/karan3613/RAGScope.git
 cd RAGScope
 ```
 
@@ -80,28 +80,6 @@ OPENAI_API_KEY=your_key_here
 streamlit run src/app.py
 ```
 
----
-
-## 📂 Repo Structure
-
-```
-RAGScope/
-│── src/
-│   ├── rag_workflows/
-│   │   ├── crag.py
-│   │   ├── selfrag.py
-│   │   ├── adaptive_rag.py
-│   │
-│   ├── pinecone_handler.py   # Reusable Pinecone integration
-│   ├── app.py                # Streamlit frontend
-│
-│── assets/                   # Demo screenshots
-│── requirements.txt
-│── README.md
-```
-
----
-
 ## 📸 Demo
 
 * ![UI Screenshot](./assets/demo1.png)
@@ -113,7 +91,7 @@ RAGScope/
 
 RAGScope is designed to be **extended**. You can:
 
-* Add new RAG workflows in `src/rag_workflows/`
+* Add new RAG workflows in `root`
 * Improve benchmark reporting
 * Extend the UI
 
@@ -123,10 +101,8 @@ PRs and issues are welcome!
 
 ## 🔗 Links
 
-* 📖 [LinkedIn Project Post](https://www.linkedin.com/posts/your-link-here)
+* 📖 [LinkedIn Project Post](https://www.linkedin.com/posts/karan-chouhan-57a337283_generativeai-rag-retrievalaugmentedgeneration-activity-7366387677765472256-ZEoP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETtOW4BGUyz-H1DfZENmLTxZMycY_DLoNE)
 * 📸 [Demo Screenshots](./assets/)
-* 🧑‍💻 [Project Repo](https://lnkd.in/dMmgHjwA)
-
 ---
 
 ## ⭐ Acknowledgements
