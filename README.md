@@ -19,16 +19,15 @@ Below are all the UI screenshots stored in the `assets/` folder:
 ![UI 2](assets/ui_2.jpg)
 ![UI 3](assets/ui_3.jpg)
 ![UI 4](assets/ui_4.jpg)
-![UI 5](assets/ui_5.jpg)
 
 
 ## 🧠 Workflow Graphs
 
 Below are all the graph flow images stored in the `graph/` folder:
 
-![Graph 1](graphs/corrective_rag.jpg)
-![Graph 2](graphs/self_rag.jpg)
-![Graph 3](graphs/adaptive_rag.jpg)
+![Corrective Rag](graphs/corrective_rag.jpg)
+![Self Rag](graphs/self_rag.jpg)
+![Adaptive Rag](graphs/adaptive_rag.jpg)
 
 ---
 
@@ -97,18 +96,16 @@ Create a `.env` file:
 
 ```
 PINECONE_API_KEY=your_key_here
-OPENAI_API_KEY=your_key_here
+GEMINI_API_KEY=your_key_here
+TAVILY_API_KEY=your_key_here
+
 ```
 
 ### 4. Run the app
 
 ```bash
-streamlit run src/app.py
+streamlit run app.py
 ```
-
-## 📸 Demo
-
-
 
 ## 🤝 Contributing
 
