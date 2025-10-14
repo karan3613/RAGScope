@@ -12,9 +12,7 @@ from Flows.CragFlow import CragFlow
 from Handlers.PineConeHandler import PineConeHandler
 from Flows.SelfFlow import SelfFlow
 
-# ============================================
-# Page Config
-# ============================================
+
 st.set_page_config(
     page_title="RAG Model Comparison",
     page_icon="🤖",
@@ -24,18 +22,12 @@ st.set_page_config(
 load_dotenv()
 
 
-# ============================================
-# Dataset Loader (cached)
-# ============================================
 @st.cache_data
 def load_data():
     dataset = load_dataset("prsdm/Machine-Learning-QA-dataset", split="train", encoding="utf-8")
     return pd.DataFrame(dataset)
 
 
-# ============================================
-# Base RAG Model Class
-# ============================================
 class BaseRAG:
     def __init__(self, name):
         self.name = name
@@ -45,11 +37,6 @@ class BaseRAG:
         raise NotImplementedError
 
 
-
-
-# ============================================
-# Load all models into cache
-# ============================================
 @st.cache_resource
 def load_models():
     pinecone_handler = PineConeHandler(index_name= "clgevents")
@@ -62,17 +49,12 @@ def load_models():
     }
 
 
-# ============================================
-# Helper to fetch random Q
-# ============================================
 def get_random_question(dataset):
     idx = np.random.randint(0, len(dataset))
     return dataset.iloc[idx]["Question"], idx
 
 
-# ============================================
-# Main App
-# ============================================
+
 def main():
     st.title("🔍 RAG Model Comparison Tool")
     st.markdown("Compare **Basic RAG, CRAG, Adaptive RAG, and Self RAG** side by side.")
