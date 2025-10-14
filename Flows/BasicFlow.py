@@ -4,7 +4,7 @@ from langchain import hub
 from langchain_core.output_parsers import StrOutputParser
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-from BasicState import BasicState
+from States.BasicState import BasicState
 
 
 class BasicFlow:

@@ -9,8 +9,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langgraph.constants import START, END
 from langgraph.graph import StateGraph
 
-from AdaptiveState import AdaptiveState
-from RotueQuery import RouteQuery
+from States.AdaptiveState import AdaptiveState
+from Models.RotueQuery import RouteQuery
 from SelfFlow import SelfFlow
 
 

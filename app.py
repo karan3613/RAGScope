@@ -1,4 +1,3 @@
-import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -7,11 +6,11 @@ import json
 from datasets import load_dataset
 from dotenv import load_dotenv
 
-from AdaptiveFlow import AdaptiveFlow
-from BasicFlow import BasicFlow
-from CragFlow import CragFlow
-from PineConeHandler import PineConeHandler
-from SelfFlow import SelfFlow
+from Flows.AdaptiveFlow import AdaptiveFlow
+from Flows.BasicFlow import BasicFlow
+from Flows.CragFlow import CragFlow
+from Handlers.PineConeHandler import PineConeHandler
+from Flows.SelfFlow import SelfFlow
 
 # ============================================
 # Page Config

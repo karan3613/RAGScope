@@ -8,9 +8,9 @@ from langchain.schema import Document
 from langgraph.constants import END, START
 from langgraph.graph import StateGraph
 
-from CragState import CragState
-from GradeDocuments import GradeDocuments
-from PineConeHandler import PineConeHandler
+from States.CragState import CragState
+from Models.GradeDocuments import GradeDocuments
+from Handlers.PineConeHandler import PineConeHandler
 
 
 class CragFlow:
