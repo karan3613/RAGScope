@@ -10,9 +10,30 @@ RAGScope is an experimental benchmarking tool built to help developers, research
 ## 🔗 Links
 
 * 📖 [LinkedIn Project Post](https://www.linkedin.com/posts/karan-chouhan-57a337283_generativeai-rag-retrievalaugmentedgeneration-activity-7366387677765472256-ZEoP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETtOW4BGUyz-H1DfZENmLTxZMycY_DLoNE)
-* 📸 [Working ScreenShots](./assets/)
-* ![UI Screenshot](./assets/demo1.png)
-* ![Workflow Graph](./assets/demo2.png)
+---
+
+---
+
+## 🖥️ UI Screenshots
+
+Below are all the UI screenshots stored in the `assets/` folder:
+
+![UI 1](./assets/ui1.png)
+![UI 2](./assets/ui2.png)
+![UI 3](./assets/ui3.png)
+![UI 4](./assets/ui4.png)
+![UI 5](./assets/ui5.png)
+
+---
+
+## 🧠 Workflow Graphs
+
+Below are all the graph flow images stored in the `graph/` folder:
+
+![Graph 1](./graph/crag_flow.png)
+![Graph 2](./graph/selfrag_flow.png)
+![Graph 3](./graph/adaptive_flow.png)
+
 ---
 
 ## 🚩 What’s Inside
