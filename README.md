@@ -6,6 +6,15 @@ RAGScope is an experimental benchmarking tool built to help developers, research
 
 ---
 
+---
+## 🔗 Links
+
+* 📖 [LinkedIn Project Post](https://www.linkedin.com/posts/karan-chouhan-57a337283_generativeai-rag-retrievalaugmentedgeneration-activity-7366387677765472256-ZEoP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETtOW4BGUyz-H1DfZENmLTxZMycY_DLoNE)
+* 📸 [Working ScreenShots](./assets/)
+* ![UI Screenshot](./assets/demo1.png)
+* ![Workflow Graph](./assets/demo2.png)
+---
+
 ## 🚩 What’s Inside
 
 * **Implemented Workflows**
@@ -82,9 +91,6 @@ streamlit run src/app.py
 
 ## 📸 Demo
 
-* ![UI Screenshot](./assets/demo1.png)
-* ![Workflow Graph](./assets/demo2.png)
-* ![Comparison Results](./assets/demo3.png)
 
 
 ## 🤝 Contributing
@@ -97,13 +103,7 @@ RAGScope is designed to be **extended**. You can:
 
 PRs and issues are welcome!
 
----
 
-## 🔗 Links
-
-* 📖 [LinkedIn Project Post](https://www.linkedin.com/posts/karan-chouhan-57a337283_generativeai-rag-retrievalaugmentedgeneration-activity-7366387677765472256-ZEoP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAETtOW4BGUyz-H1DfZENmLTxZMycY_DLoNE)
-* 📸 [Demo Screenshots](./assets/)
----
 
 ## ⭐ Acknowledgements
 
