@@ -15,20 +15,30 @@ RAGScope is an experimental benchmarking tool built to help developers, research
 
 Below are all the UI screenshots stored in the `assets/` folder:
 
-![UI 1](./assets/ui1.png)
-![UI 2](./assets/ui2.png)
-![UI 3](./assets/ui3.png)
-![UI 4](./assets/ui4.png)
-![UI 5](./assets/ui5.png)
+<table>
+  <tr>
+    <td><img src="assets/ui_1.jpg" width="300"></td>
+    <td><img src="assets/ui_2.jpg" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/ui_3.jpg" width="300"></td>
+    <td><img src="assets/ui_4.jpg" width="300"></td>
+  </tr>
+</table>
 
+---
 
 ## 🧠 Workflow Graphs
 
-Below are all the graph flow images stored in the `graph/` folder:
+Below are all the graph flow images stored in the `graphs/` folder:
 
-![Graph 1](./graph/crag_flow.png)
-![Graph 2](./graph/selfrag_flow.png)
-![Graph 3](./graph/adaptive_flow.png)
+<table>
+  <tr>
+    <td><img src="graphs/corrective_rag.jpg" width="300"></td>
+    <td><img src="graphs/self_rag.jpg" width="300"></td>
+    <td><img src="graphs/adaptive_rag.jpg" width="300"></td>
+  </tr>
+</table>
 
 ---
 
@@ -97,18 +107,16 @@ Create a `.env` file:
 
 ```
 PINECONE_API_KEY=your_key_here
-OPENAI_API_KEY=your_key_here
+GEMINI_API_KEY=your_key_here
+TAVILY_API_KEY=your_key_here
+
 ```
 
 ### 4. Run the app
 
 ```bash
-streamlit run src/app.py
+streamlit run app.py
 ```
-
-## 📸 Demo
-
-
 
 ## 🤝 Contributing
 
