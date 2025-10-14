@@ -15,19 +15,30 @@ RAGScope is an experimental benchmarking tool built to help developers, research
 
 Below are all the UI screenshots stored in the `assets/` folder:
 
-![UI 1](assets/ui_1.jpg)
-![UI 2](assets/ui_2.jpg)
-![UI 3](assets/ui_3.jpg)
-![UI 4](assets/ui_4.jpg)
+<table>
+  <tr>
+    <td><img src="assets/ui_1.jpg" width="300"></td>
+    <td><img src="assets/ui_2.jpg" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/ui_3.jpg" width="300"></td>
+    <td><img src="assets/ui_4.jpg" width="300"></td>
+  </tr>
+</table>
 
+---
 
 ## 🧠 Workflow Graphs
 
-Below are all the graph flow images stored in the `graph/` folder:
+Below are all the graph flow images stored in the `graphs/` folder:
 
-![Corrective Rag](graphs/corrective_rag.jpg)
-![Self Rag](graphs/self_rag.jpg)
-![Adaptive Rag](graphs/adaptive_rag.jpg)
+<table>
+  <tr>
+    <td><img src="graphs/corrective_rag.jpg" width="300"></td>
+    <td><img src="graphs/self_rag.jpg" width="300"></td>
+    <td><img src="graphs/adaptive_rag.jpg" width="300"></td>
+  </tr>
+</table>
 
 ---
 
